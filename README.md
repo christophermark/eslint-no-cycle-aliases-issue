@@ -9,7 +9,7 @@ To get this working, run the following commands:
 > `node_modules/.bin/eslint .`
 
 ## Reproducing the issue
-```
+```js
 /* main.js */
 
 // import unused from '../exports/exporter'; // <-- Throws a no-cycle error when uncommented
